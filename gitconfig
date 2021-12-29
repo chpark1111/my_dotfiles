@@ -14,3 +14,6 @@
     showUntrackedFiles = all
 [credential]
 	helper = "!f() { /root/.vscode-server/bin/7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e/node /tmp/vscode-remote-containers-d576db478aab7f5eb5c3a63a8cf4f153afed567c.js $*; }; f"
+[user]
+	email = chpark1111@kaist.ac.kr
+	name = Chanhyeok
