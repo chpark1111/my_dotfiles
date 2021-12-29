@@ -15,6 +15,11 @@ function buo(){
         fi
     done
 }
+# tmux
+alias tls='tmux ls'
+alias tnw='tmux new -s'
+alias tat='tmux attach -t'
+
 # tensorboard
 alias tenb='tensorboard --logdir . --bind_all --port 60010'
 
@@ -55,6 +60,7 @@ alias pylist='ps -ef | grep "python"'
 # Temp
 alias cl='clear'
 alias rmh='rm -rf'
+alias lsa='ls -al'
 
 # custom rsync
 function myrsync(){
