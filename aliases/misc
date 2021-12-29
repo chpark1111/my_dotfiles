@@ -15,15 +15,18 @@ function buo(){
         fi
     done
 }
+# tensorboard
+alias tenb='tensorboard --logdir . --bind_all --port 60010'
 
-# visdom
-alias vis='python -m visdom.server'
+# jupyter lab
+alias jl='jupyter lab --ip 0.0.0.0 --allow-root'
 
 # jupyter notebook
 alias jn='jupyter notebook'
 alias jna='jupyter notebook --ip 0.0.0.0'
 
 # gpu
+alias nvsmi='nvidia-smi'
 alias gpu="watch --color -n.5 gpustat --color"
 alias gpusmi="watch -n.5 nvidia-smi"
 function usegpu(){
@@ -50,9 +53,8 @@ alias tblist='ps -ef | grep "tensorboard"'
 alias pylist='ps -ef | grep "python"'
 
 # Temp
-alias pth='sa pth && pip install pandas pyyaml tqdm ipdb pdbpp tensorboard==1.14'
-alias tb='sa tb && pip install tensorboard==1.12 && tensorboard --port 6006 --logdir=./'
-alias jnaa='sa pth && jupyter-notebook --port 8888 --ip 0.0.0.0'
+alias cl='clear'
+alias rmh='rm -rf'
 
 # custom rsync
 function myrsync(){

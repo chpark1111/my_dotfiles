@@ -30,6 +30,8 @@ ln -sf $DOT_DIR/aliases $HOME/.aliases
 ln -sf $DOT_DIR/gitconfig $HOME/.gitconfig
 ln -sf $DOT_DIR/condarc $HOME/.condarc
 ln -sf $DOT_DIR/zshrc $HOME/.zshrc
+ln -sf $DOT_DIR/bashrc $HOME/.bashrc
+
 echo; echo '** download oh-my-zsh.'
 bash $DOT_DIR/install-omz.sh; 
 ln -sf $DOT_DIR/themes/mrtazz_custom.zsh-theme $HOME/.oh-my-zsh/themes/

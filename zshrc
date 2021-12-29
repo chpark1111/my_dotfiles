@@ -1,6 +1,6 @@
 #==================================================#
 ### set default paths
-
+export MYHOME=/home/chpark1111
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/cuda/bin:$PATH
 export PATH=$HOME/anaconda3/bin:$PATH # anaconda3
 export PATH=$HOME/.local/bin:$PATH
@@ -9,7 +9,7 @@ export SHELL=$(which zsh)
 export ZSH=$HOME/.oh-my-zsh # oh-my-zsh
 export LANG=en_US.UTF-8
 export LC_ALL=C
-export MYDOTFILES=$HOME/.dotfiles
+export MYDOTFILES=$MYHOME/.dotfiles
 
 
 #==================================================#
