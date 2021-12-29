@@ -1,7 +1,7 @@
 # dotfiles
 
 ```
-git clone https://github.com/1Konny/dotfiles.git ~/.dotfiles; 
+git clone https://github.com/chpark1111/my_dotfiles.git ~/.dotfiles; 
 cd ~/.dotfiles; bash install.sh -c
 ```
 terminal info: <br>
