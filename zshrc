@@ -1,6 +1,6 @@
 #==================================================#
 ### set default paths
-export MYHOME=/home/chpark1111
+#export MYHOME=/home/chpark1111
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/cuda/bin:$PATH
 export PATH=$HOME/anaconda3/bin:$PATH # anaconda3
 export PATH=$HOME/.local/bin:$PATH
@@ -9,7 +9,7 @@ export SHELL=$(which zsh)
 export ZSH=$HOME/.oh-my-zsh # oh-my-zsh
 export LANG=en_US.UTF-8
 export LC_ALL=C
-export MYDOTFILES=$MYHOME/.dotfiles
+export MYDOTFILES=$HOME/.dotfiles
 
 
 #==================================================#
@@ -83,6 +83,13 @@ function fzfv()
                  echo {} is a binary file ||
                  (cat {}) 2> /dev/null | head -500'
 }
+# personal setting
+export PATH="/opt/homebrew/bin:$PATH"
+alias python='python3'
+alias pip='pip3'
+alias htop='sudo htop'
+export SCALA_HOME=/usr/local/scala-2.13.7
+export PATH=$PATH:$SCALA_HOME/bin
 
 # remove duplicates in PATH
 export PATH="$(echo -n $PATH | awk -v RS=: -v ORS=: '!arr[$0]++')"
