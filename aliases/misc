@@ -32,7 +32,7 @@ alias jna='jupyter notebook --ip 0.0.0.0'
 
 # gpu
 alias nvsmi='nvidia-smi'
-alias gpu="watch --color -n.5 gpustat --color"
+alias gpu="watch --color -n.5 gpustat --color -uc"
 alias gpusmi="watch -n.5 nvidia-smi"
 function usegpu(){
     if [ ! -z "$1" ]; then
