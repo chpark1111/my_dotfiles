@@ -101,4 +101,4 @@ fi
 # set zsh to the default shell
 echo; echo '** set ZSH as default shell.'
 echo "exec zsh" >> $HOME/.bash_profile
-exec zsh
+exit
