@@ -2,7 +2,7 @@
 
 ```
 git clone https://github.com/chpark1111/my_dotfiles.git ~/.dotfiles; 
-cd ~/.dotfiles; bash install.sh -c
+cd ~/.dotfiles; bash install.sh
 ```
 terminal info: <br>
  - type: xterm <br>
