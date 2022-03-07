@@ -59,4 +59,4 @@ function rmcenv(){
 }
 
 alias ca='conda activate'
-alias cd='conda deactivate'
+alias cda='conda deactivate'
