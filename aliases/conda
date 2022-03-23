@@ -58,5 +58,5 @@ function rmcenv(){
     fi
 }
 
-alias sa='source activate'
-alias sda='source deactivate'
+alias ca='conda activate'
+alias cda='conda deactivate'
