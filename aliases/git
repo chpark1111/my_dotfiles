@@ -11,6 +11,7 @@ alias gcl='git clone'
 alias gps='git push'
 alias gpl='git pull'
 alias gb='git branch'
+alias gck='git checkout'
 
 alias pcr='pre-commit run'
 alias pci='pre-commit install'
