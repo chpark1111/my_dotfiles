@@ -61,7 +61,7 @@ alias pylist='ps -ef | grep "python"'
 alias cl='clear'
 alias rmh='rm -rf'
 alias lsa='ls -al'
-alias dsz='du -h --max-depth=1 | sort -hr'
+alias lsz='du -h --max-depth=1 | sort -hr'
 
 # custom rsync
 function myrsync(){
